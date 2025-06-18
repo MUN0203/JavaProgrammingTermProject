@@ -39,6 +39,7 @@ public class StopwatchPanel extends JPanel {
 
         stopButton.setEnabled(false);
         recordButton.setEnabled(false);
+        resetButton.setEnabled(false);
     }
 
     public void updateTime(String t) {
