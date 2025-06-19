@@ -44,7 +44,7 @@ public class StopwatchController {
     }
 
     public void reset() {
-        model.stop();
+        model.reset();
         swingTimer.stop();
         view.updateTime(TimeFormatter.format(0));
         view.clearText();
